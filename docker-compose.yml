@@ -13,8 +13,8 @@ services:
       - 5432:5432
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=ecommerce_postgres
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=cccat9
     volumes:
       - pgdata:/data/postgres
     networks:
